@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_logo"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:contentDescription="@string/start_bild"
+        android:defaultFocusHighlightEnabled="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/settingsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toEndOf="@+id/settingsButton"
+        app:layout_constraintTop_toTopOf="@+id/settingsButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_button_start" />
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:contentDescription="@string/settings_button"
+        android:defaultFocusHighlightEnabled="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
+        app:srcCompat="@drawable/img_button_settings" />
+
+    <ImageButton
+        android:id="@+id/quitButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:contentDescription="@string/quit_button"
+        android:defaultFocusHighlightEnabled="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/settingsButton"
+        app:layout_constraintEnd_toStartOf="@+id/settingsButton"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settingsButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_button_exit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

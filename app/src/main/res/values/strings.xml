@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Breakout_Marko_Guastella</string>
+    <string name="start_bild">Start Bild</string>
+    <string name="settings_button">Settings Button</string>
+    <string name="quit_button">Quit Button</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="hinderniss_spalten">Hinderniss Spalten</string>
+    <string name="hinderniss_reihen">Hinderniss Reihen</string>
+    <string name="schlaeger_groesse">Schläger Größe</string>
+    <string name="max_ball_geschwindigkeit">Max. Ball Geschwindigkeit</string>
+    <string name="zeit_in_minuten">Zeit in Minuten</string>
+    <string name="fps">FPS</string>
+    <string name="ball_groesse">Ball Größe</string>
+    <string name="settings_bild">Settings Bild</string>
+    <string name="save_image">Save Image</string>
+    <string name="reload_image">Reload Image</string>
+    <string name="go_back">Go Back</string>
+</resources>
